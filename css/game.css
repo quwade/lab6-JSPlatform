@@ -1,0 +1,17 @@
+.background    { background: linear-gradient(to bottom right, red, yellow);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(243, 71, 6); }
+.wall          { background: rgb(255, 239, 119);   }
+.cactus        { background: rgb(0, 117, 20  );}
+
+.actor  { position: absolute;  }
+.player { background: linear-gradient(brown, brown); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
